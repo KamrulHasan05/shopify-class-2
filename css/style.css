@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Brand start*/
+.brand {
+    background-color: #ebebee;
+    padding: 35px 0;
+}
+
+.brand-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/*Brand End*/
+
+/*Good start*/
+.goodbye{
+    padding: 90px 0 190px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1 {
+    flex-basis: 60%;
+    max-width: 60%;
+}
+.good-img img{
+    border-radius: 30px;
+}
+.image-1 {transform: translate(45px, 110px);}
+.image-2 {}
+.col-2 {
+    flex-basis: 40%;
+    max-width: 40%;
+}
+.col-2 .good-content{} 
+.c_strong {
+    color: #47596b;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.c_h2 {
+    margin: 15px 0;
+    color: #47596b;
+    font-size: 36px;
+    font-weight: 500;
+}
+.c_p {
+    color: #47596b;
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 2px;
+    font-weight: 300;
+}
+.c_button {
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #8d9eae;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+/*Good End*/
+
+/*bacteria start*/
+.bacteria{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    background-color: #ebebee;
+}
+.bacteria-content{}
+.bacteria-content img{
+    max-width: 100%;
+    margin-top: 20px;
+}
+.image-3{
+    min-width: 300px;
+    transform: translate(45px, 110px);
+}
+.image-4{}
+.w-40 {
+    flex-basis: 40%;
+    max-width: 40%;
+}
+.w-60 {
+    flex-basis: 60%;
+    max-width: 60%;
+    text-align: right;
+    margin-top: 40px;
+}
+/*bacteria end*/
+/*Award start*/
+.award {
+    padding: 100px 0;
+}
+.award-img h2 {
+    margin: 0px;
+}
+.award-img {
+    text-align: center;
+}
+
+.award-pic {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px auto 0;
+}
+.youtube {
+    margin-bottom: 70px;
+}
+.youtube-content {
+    text-align: center;
+    max-width: 1000px;
+    margin: 80px auto;
+}
+.good-content img {
+    max-width: 550px;
+}
+/*Award end*/
+/*gallery start*/
+.gallery-img {
+    max-width: 100%;
+    display: flex;
+}
+.gallery-img img {
+    max-width: 20%;
+}
+
+/*gallery end*/
+/*cloud start*/
+.cloud {
+    padding: 100px 0 140px;
+    background-color: #ebebee;
+}
+.image-2 {
+    min-width: 300px;
+}
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.text-right {
+    text-align: right;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+
+/*cloud end*/
+
+/*founder start*/
+.founder {
+    padding: 100px 140px;
+}
+/*founder end*/
